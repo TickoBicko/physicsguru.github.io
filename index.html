@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Rush</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <h1 class="title">
+            <span class="physics">Physics</span><span class="rush">Rush</span>
+        </h1>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="Q1">Past Papers</button>
+            <button class="tab-btn" data-tab="Q2">Tafaouk</button>
+            <button class="tab-btn" data-tab="Q3">El-Moasser</button>
+        </div>
+        <div class="mobile-tabs">
+            <select id="tabSelect">
+                <option value="Q1">Past Papers</option>
+                <option value="Q2">Tafaouk</option>
+                <option value="Q3">El-Moasser</option>
+            </select>
+        </div>
+
+        <div class="content-area">
+            <div class="timer" id="timer">4:00</div>
+            <div class="image-container">
+                <img id="problemImage" alt="Physics Problem">
+            </div>
+            
+            <div class="score-container">
+                Score: <span id="scoreValue" class="score">0</span>
+            </div>
+            
+            <div class="buttons">
+                <button id="solvedBtn" class="btn solved">Solved</button>
+                <button id="skipBtn" class="btn skip">Skip</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="made-by">
+            Made by <pre></pre> <pre></pre>  <a href="https://www.youtube.com/@Ather-Khaled">Ather</a><pre></pre>  <pre></pre>with 
+            <span class="heart">❤️</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
