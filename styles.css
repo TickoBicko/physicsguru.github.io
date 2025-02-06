@@ -2,11 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 a{
     color: unset;
 }
-
+#x1{
+    display: block;
+    font-family: "Handjet", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "ELGR" 1,
+      "ELSH" 2;
+}
+.loon{
+    color: #ff4444;
+}
 @keyframes move-stars {
     from {
         transform: translateY(0);
